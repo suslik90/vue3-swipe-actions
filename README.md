@@ -1,11 +1,11 @@
-# vue-swipe-actions
+# vue3-swipe-actions
 
-**iOS style swipe actions for Vue.js, [Live Demo](https://ecollect.github.io/vue-swipe-actions/)** ([Source](https://github.com/eCollect/vue-swipe-actions/blob/master/demo/src/App.vue))
+**iOS style swipe actions for Vue 3, [Live Demo](https://vue3-swipe-actions.romansmekalov.ru/)** ([Source](https://github.com/suslik90/vue3-swipe-actions/blob/main/demo/src/App.vue))
 
 ## Installation
 
 ```
-npm install --save vue-swipe-actions
+npm install --save https://github.com/suslik90/vue3-swipe-actions
 ```
 
 ```js
@@ -24,7 +24,7 @@ export default {
 ### Import Styles
 
 ```javascript
-import 'vue-swipe-actions/dist/vue-swipe-actions.css';
+import 'vue-swipe-actions/dist/vue3-swipe-actions.css';
 ```
 
 ### SwipeList
@@ -193,4 +193,4 @@ export default {
 
 ## Author
 
-&#169; 2018-9 eCollect AG.
+&#169; 2023-3 suslik90

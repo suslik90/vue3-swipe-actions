@@ -35,7 +35,7 @@ function generateFiles({ sources, name = '' }) {
 }
 
 function generateBase() {
-	const src = 'src/styles/vue-swipe-actions.css';
+	const src = 'src/styles/vue3-swipe-actions.css';
 	return generateFiles({ sources: [src] });
 }
 

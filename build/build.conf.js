@@ -6,7 +6,7 @@ module.exports = {
 	name,
 	banner:
     `${'/*!\n'
-    + ' * vue-swipe-actions v'}${version}\n`
+    + ' * vue3-swipe-actions v'}${version}\n`
     + ' * (c) 2016-present eCollect\n'
     + ' * Released under the MIT License.\n'
     + ' */\n',

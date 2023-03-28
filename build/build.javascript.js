@@ -12,7 +12,7 @@ const builds = [
 				input: resolve('src/index.esm.js'),
 			},
 			output: {
-				file: resolve('dist/vue-swipe-actions.esm.js'),
+				file: resolve('dist/vue3-swipe-actions.esm.js'),
 				format: 'es',
 			},
 		},
@@ -39,7 +39,7 @@ const builds = [
 				input: resolve('src/index.umd.js'),
 			},
 			output: {
-				file: resolve('dist/vue-swipe-actions.umd.js'),
+				file: resolve('dist/vue3-swipe-actions.umd.js'),
 				format: 'umd',
 			},
 		},

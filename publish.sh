@@ -1,1 +1,0 @@
-npm run build-bundle && npm publish

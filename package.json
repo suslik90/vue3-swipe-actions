@@ -1,7 +1,7 @@
 {
-	"name": "vue-swipe-actions",
+	"name": "vue3-swipe-actions",
 	"description": "iOS style swipe actions",
-	"version": "2.0.0-beta.20",
+	"version": "1.0.0",
 	"private": false,
 	"scripts": {
 		"serve": "vue-cli-service serve ./demo/src/main.js",
@@ -17,20 +17,20 @@
 		]
 	},
 	"author": {
-		"name": "eCollect AG"
+		"name": "Roman Smekalov"
 	},
 	"keywords": [
 		"vuejs",
-		"vue-swipe-actions",
-		"vue",
+		"vue3-swipe-actions",
+		"vue3",
 		"swipe",
 		"list"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/eCollect/vue-swipe-actions"
+		"url": "https://github.com/suslik90/vue3-swipe-actions"
 	},
-	"main": "./dist/vue-swipe-actions.common.js",
+	"main": "./dist/vue3-swipe-actions.common.js",
 	"module": "./src/index.esm.js",
 	"devDependencies": {
 		"@vue/cli-plugin-babel": "^4.1.2",

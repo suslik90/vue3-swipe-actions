@@ -103,7 +103,7 @@ function genConfig(opts) {
 
 	opts.rollup.input.plugins = plugins;
 	opts.rollup.output.banner = buildConf.banner;
-	opts.rollup.output.name = opts.rollup.output.name || 'vue-swipe-actions';
+	opts.rollup.output.name = opts.rollup.output.name || 'vue3-swipe-actions';
 
 	opts.rollup.input.external = opts.rollup.input.external || [];
 	opts.rollup.input.external.push('vue');
