@@ -14,7 +14,7 @@
 		>
 			<!-- left swipe side template and v-slot:left="{ item }" is the item clearly -->
 			<!-- remove if you dont wanna have left swipe side  -->
-			<template v-slot:left="{ item, close }">
+			<template v-slot:left="{ item, close, index }">
 				<div class="swipeout-action red" title="remove" @click="remove(item)">
 					<!-- place icon here or what ever you want -->
 					<i class="fa fa-trash"></i>
@@ -22,6 +22,18 @@
 				<div class="swipeout-action purple" @click="close">
 					<!-- place icon here or what ever you want -->
 					<i class="fa fa-close"></i>
+				</div>
+			</template>
+			<!-- right swipe side template and v-slot:right"{ item }" is the item clearly -->
+			<!-- remove if you dont wanna have right swipe side  -->
+			<template v-slot:right="{ item }">
+				<div class="swipeout-action blue">
+					<!-- place icon here or what ever you want -->
+					<i class="fa fa-heart"></i>
+				</div>
+				<div class="swipeout-action green">
+					<!-- place icon here or what ever you want -->
+					<i class="fa fa-heart"></i>
 				</div>
 			</template>
 			<template v-slot="{ item, index, revealLeft, revealRight, close, revealed, disabled }">
@@ -41,22 +53,6 @@
 						type="checkbox"
 					>
 					<label :for="`${index}disabled`">Disabled</label>
-				</div>
-			</template>
-			<!-- right swipe side template and v-slot:right"{ item }" is the item clearly -->
-			<!-- remove if you dont wanna have right swipe side  -->
-			<template v-slot:right="{ item, close }">
-				<div class="swipeout-action blue">
-					<!-- place icon here or what ever you want -->
-					<i class="fa fa-heart"></i>
-				</div>
-				<div class="swipeout-action green">
-					<!-- place icon here or what ever you want -->
-					<i class="fa fa-heart"></i>
-				</div>
-				<div class="swipeout-action yellow" @click="close">
-					<!-- place icon here or what ever you want -->
-					<i class="fa fa-heart"></i>
 				</div>
 			</template>
 			<template v-slot:empty>

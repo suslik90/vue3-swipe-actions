@@ -139,22 +139,23 @@ export default {
 
 			slots.default = ({
 				close,
+				disabled,
 				revealLeft,
 				revealRight,
 				revealed,
-				disabled,
 			}) => h('div', {
 				ref: 'itemsContent',
 				onClick: () => { this.$emit('swipeout:click', item); },
 			}, defaultScope({
 				item,
 				index,
+				close,
+				disabled,
+				revealed,
 				revealLeft,
 				revealRight,
-				close,
-				revealed,
-				disabled,
 			}));
+
 			return h(SwipeOut, {
 				key: index,
 				ref: 'items',

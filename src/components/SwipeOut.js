@@ -226,25 +226,23 @@ export default {
 	render() {
 		const content = [];
 		const { left, right, default: defaultScope } = this.$slots;
-
 		if (left)
 			content.push(
 				h('div', {
 					ref: 'left',
-					сlass: ['swipeout-left'],
+					class: 'swipeout-left',
 				}, left({
-					close: this.closeActions,
+					close: this.close,
 				})),
 			);
-
 
 		if (right)
 			content.push(
 				h('div', {
 					ref: 'right',
-					class: ['swipeout-right'],
+					class: 'swipeout-right',
 				}, right({
-					close: this.closeActions,
+					close: this.close,
 				})),
 			);
 

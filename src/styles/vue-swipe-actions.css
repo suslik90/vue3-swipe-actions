@@ -4,14 +4,14 @@
 	display: flex;
 }
 
-.swipeout > .swipeout-left, .swipeout > .swipeout-right {
+.swipeout .swipeout-left, .swipeout .swipeout-right {
 	position: absolute;
 	height: 100%;
 	display: flex;
 	z-index: 1;
 }
 
-.swipeout >.swipeout-left {
+.swipeout .swipeout-left {
 	left: 0;
 	transform: translateX(-100%);
 }
